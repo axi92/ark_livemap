@@ -1,11 +1,13 @@
+Name: HTTPLocation aka. Livemap 
+ModID: 2228258035
 Sends all player location to a weburl as a POST request.
-Webservice is in development! And can be alpha tested by request.
-All official maps are supported + FJördur and Olympus!
+Webservice is in development! And can be alpha tested by request, just send me a short message on discord https://discord.gg/SHt2meS.
+All official maps are supported + Fjordur, Olympus and Caballus!
 Demo: https://arkmap.axi92.at/f17530e3-d292-4bcd-83be-f6e91d8d153c
 
 GameUserSettings.ini Settings:
 
-privateid: must be kept a secret. Everybody with this ID could send data to the webserver.
+privateid: must be kept a secret. Everybody with this ID could send data to the webserver (you can get your privateid from me, just message me on discord https://discord.gg/SHt2meS).
 url: url of the webserver
 debug: only use for a short time because it increases log size!
 scannEnabled: experimental dino scan, could cause lags
@@ -17,7 +19,7 @@ privateid="b3db2542-c566-47e8-9579-1b2216c3fb47"
 url="http://example.com"
 debug=false
 scanEnabled=false
-FlagRangeMeshScale=38000.0
+FlagRangeMeshFoundations=70
 [/code]
 
 The web request is POST and consists of an json object:
