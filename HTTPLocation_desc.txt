@@ -17,7 +17,7 @@ privateid="b3db2542-c566-47e8-9579-1b2216c3fb47"
 url="http://example.com"
 debug=false
 scanEnabled=false
-FlagRangeMeshScale=38000.0
+FlagRangeMeshFoundations=70
 [/code]
 
 The web request is POST and consists of an json object:
