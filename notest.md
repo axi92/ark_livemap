@@ -1,0 +1,1 @@
+Old path for ark: G:\EpicGamesSpiele\ARKEditor\Projects\ShooterGame\Content\Mods\HTTPLocation
